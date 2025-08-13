@@ -13,12 +13,7 @@ else:
 state=input("Insert a sentence:")
 words=state.split()
 print(words)
-print(len(words))
-a=state.replace("a","*")
-b=a.replace("e","*")
-c=b.replace("i","*")
-d=c.replace("o","*")
-e=d.replace("u","*")
-
-print(e)
-
+vowels = "aeiouAEIOU"
+for i in vowels:
+    state=state.replace(i,"*")
+print(state)
