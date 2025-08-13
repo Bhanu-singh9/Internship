@@ -8,12 +8,12 @@ print(len(text))
 print(text[0])
 print(text[-1])
 
-'''concatenation'''
+# '''concatenation'''
 a='Bhanu'
 b='Singh'
 print(a+b)
 
-'''Repitition'''
+# '''Repitition'''
 a="Python!"
 print(a*10)
 

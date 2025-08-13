@@ -1,21 +1,21 @@
-'''String method practice'''
+# '''String method practice'''
 a="learning python"
 print(a.upper())
 print(a.lower())
 print(a.title())
 
-'''removespaces   '''
+# '''removespaces   '''
 b=" clean me "
 print(b)
 print(b.strip())
 
-'''replace'''
+# '''replace'''
 c="i have a dog"
 d="cat"
 print(c)
 print(c.replace("dog", d))
 
-'''count'''
+# '''count'''
 e="banana"
 print(e)
 print(e.count("a"))
