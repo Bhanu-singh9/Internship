@@ -15,3 +15,21 @@ new_word=input("Enter a new word:")
 
 new_sentence=sentence.replace(old_word,new_word)
 print("Replaced Sentence:",new_sentence)
+
+'''User name generator
+'''
+user1=input("First Name:")
+user2=input("Last Name:")
+user3=input("birthyear:")
+print(user1+user2+user3)
+
+
+#password generator (asked for user input resversed it using negative indexing and added random number)
+password=input("Enter a password:")
+print(password)
+print(password[::-1]+"98")
+
+#pig latin converter
+pig=("python")
+print(pig)
+
