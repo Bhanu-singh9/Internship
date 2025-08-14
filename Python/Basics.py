@@ -12,6 +12,8 @@ print(text[-1])
 a='Bhanu'
 b='Singh'
 print(a+b)
+"Bhanu Singh"
+print(a+" "+ b)
 
 # '''Repitition'''
 a="Python!"

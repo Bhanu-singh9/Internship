@@ -13,7 +13,16 @@ else:
 state=input("Insert a sentence:")
 words=state.split()
 print(words)
-vowels = "aeiouAEIOU"
-for i in vowels:
-    state=state.replace(i,"*")
+state=state.replace("a","*")
+state=state.replace("e","*")
+state=state.replace("i","*")
+state=state.replace("o","*")
+state=state.replace("u","*")
 print(state)
+
+#username generator
+user1=input("First Name:")
+user2=input("Last Name:")
+user3=input("Birth year:")
+
+print()
