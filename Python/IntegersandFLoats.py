@@ -75,8 +75,56 @@ print(round(3.14159,2))
 #floor division
 w=input("Enter first number:")
 x=input("Enter second number:")
-y=(w//x)
+# y=(w//x)
 print(y)
+
+#Type casting & built ins
+u=20
+v=float(u)
+print(v)
+
+#converting string into float
+red="25.5"
+green=float(red)
+print(green +10)
+
+#finding min and max element of a list and sum
+large=[20,30,35]
+min_large=min(large)
+print(min_large)
+max_large=max(large)
+print(max_large)
+add=sum(large)
+print(add)
+
+#using random to print random number from 1 to 100 (using python standard library)
+import random
+one=random.randint(1,100)
+print(f"Random number betweeen 1 to 100:{one}")
+
+'''challenge problems'''
+#1 checking if the number is even or odd
+check=float(input("Enter a number:"))
+if check/2:
+    print(check,"Is even")
+else:
+    print(check,"is odd")
+
+#2
+import math
+
+principle=3000
+rate=4/100
+time=4
+ci=principle*(1+rate/time)**(time)
+print(ci)
+
+#converting seconds into hour,minute and second format
+second=300000
+minutes=second/60
+hours=minutes/60
+
+
 
 
 
